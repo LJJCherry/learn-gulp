@@ -1,0 +1,1 @@
+var pageData={},type=["view","content","form","interact","nav","media","map","canvas"];pageData.widgetsToggle=function(a){for(var t=a.currentTarget.id,e={},g=0,n=type.length;g<n;++g)e[type[g]+"Show"]=!1;e[t+"Show"]=!this.data[t+"Show"],this.setData(e)},Page(pageData);
